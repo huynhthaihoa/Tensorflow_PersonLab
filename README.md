@@ -21,12 +21,14 @@ Code repo for reproducing 2018 ECCV paper [PersonLab: Person Pose Estimation and
 
 * Python3
 
-* Tensorflow 1.80
+* Tensorflow <= 1.14.0
 * pycocotools  2.0
-* skimage  0.13.0
-* python-opencv 3.4.1
+* scikit-image >= 0.13.0
+* opencv-python >= 3.4.1
 
-
+### Installation
+`pip install -r requirements.txt`
+  
 
 ### Demo
 
