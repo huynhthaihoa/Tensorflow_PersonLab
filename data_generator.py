@@ -134,8 +134,8 @@ class DataGeneraotr(object):
                     
         
 #plt.imshow(batch[5][2][:,:,0])        
-dataset = DataGeneraotr()
-#dataset.get_one_sample()
-#batch = next(dataset.gen_batch())
-img = dataset.get_multi_scale_img(13291,0.5)
-plt.imshow(img)  
+# dataset = DataGeneraotr()
+# #dataset.get_one_sample()
+# #batch = next(dataset.gen_batch())
+# img = dataset.get_multi_scale_img(13291,0.5)
+# plt.imshow(img)  
